@@ -1,0 +1,19 @@
+{
+  "name": "success-stories",
+  "version": "0.1.0",
+  "description": "Generate customer success stories and case studies for SaaS product portfolios. Produces markdown, HTML page components, gated PDF versions, and LinkedIn/X distribution snippets — matching the dark editorial design system used across techvisory.io, edisontkp.com, and the OS portfolio.",
+  "author": {
+    "name": "EdisonTKP",
+    "url": "https://edisontkp.com"
+  },
+  "homepage": "https://github.com/EdisonTKPcom/success-stories-plugin",
+  "keywords": ["case-study", "success-story", "testimonial", "saas-marketing", "content-generation"],
+  "commands": [
+    "commands/new-case-study.md",
+    "commands/interview-script.md",
+    "commands/batch-case-studies.md",
+    "commands/publish-checklist.md"
+  ],
+  "agents": ["agents/case-study-writer.md"],
+  "skills": ["skills/success-stories"]
+}
